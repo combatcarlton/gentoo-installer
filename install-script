@@ -80,7 +80,7 @@ install_gentoo_prep ()
   command cd $MOUNT_LOCATION
 
   message "Extracting stage3 tarball"
-  command tar xvjpf stage3-* --xattrs
+  command tar xvpf stage3-* --xattrs
 
   message "Copying configuration files"
   command mkdir -pv ${MOUNT_LOCATION}/etc
